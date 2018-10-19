@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 include 'dbh.php';
 
 $uname = $_POST['uname'];
